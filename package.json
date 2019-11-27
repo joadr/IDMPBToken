@@ -1,0 +1,14 @@
+{
+  "name": "IDMPBToken",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Joaquin Diaz (Joadr)",
+  "license": "MIT",
+  "scripts": {
+    "start-ganache": "ganache-cli --deterministic"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-ethereum-package": "^2.4.0",
+    "@openzeppelin/upgrades": "^2.6.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "manifestVersion": "2.2",
+  "contracts": {
+    "IDMPBToken": "IDMPBToken"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-ethereum-package": "^2.4.0"
+  },
+  "name": "IDMPBToken",
+  "version": "0.0.1",
+  "telemetryOptIn": false,
+  "compiler": {
+    "manager": "openzeppelin",
+    "solcVersion": "0.5.13",
+    "compilerSettings": {
+      "optimizer": {
+        "enabled": false,
+        "runs": "200"
+      }
+    }
+  }
+}
